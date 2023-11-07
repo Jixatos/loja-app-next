@@ -1,0 +1,124 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "Anastasia Landry",
+      "email": "anastasialandry4239@hotmail.com",
+      "region": "Bahia"
+    },
+    {
+      "id": 2,
+      "name": "Patrick White",
+      "email": "patrickwhite7963@aol.edu",
+      "region": "Bahia"
+    },
+    {
+      "id": 3,
+      "name": "Kennedy Jones",
+      "email": "kennedyjones693@google.com",
+      "region": "Pará"
+    },
+    {
+      "id": 4,
+      "name": "Kylie Delgado",
+      "email": "kyliedelgado3560@outlook.edu",
+      "region": "Goiás"
+    },
+    {
+      "id": 5,
+      "name": "Elvis Fields",
+      "email": "elvisfields4581@hotmail.org",
+      "region": "Pernambuco"
+    },
+    {
+      "id": 6,
+      "name": "Hashim Cline",
+      "email": "hashimcline@icloud.com",
+      "region": "Rio Grande do Sul"
+    },
+    {
+      "id": 7,
+      "name": "Carlos Colon",
+      "email": "carloscolon@icloud.net",
+      "region": "Rio de Janeiro"
+    },
+    {
+      "id": 8,
+      "name": "Zeus Buck",
+      "email": "zeusbuck2992@google.couk",
+      "region": "Rio de Janeiro"
+    },
+    {
+      "id": 9,
+      "name": "Mona Burns",
+      "email": "monaburns@protonmail.ca",
+      "region": "Goiás"
+    },
+    {
+      "id": 10,
+      "name": "Ivan Carey",
+      "email": "ivancarey@aol.couk",
+      "region": "Ceará"
+    },
+    {
+      "id": 11,
+      "name": "Robin Morse",
+      "email": "robinmorse2799@hotmail.net",
+      "region": "Maranhão"
+    },
+    {
+      "id": 12,
+      "name": "Mira Bright",
+      "email": "mirabright@yahoo.couk",
+      "region": "Bahia"
+    },
+    {
+      "id": 13,
+      "name": "Calvin Acosta",
+      "email": "calvinacosta@google.com",
+      "region": "Paraíba"
+    },
+    {
+      "id": 14,
+      "name": "Haley Best",
+      "email": "haleybest@google.net",
+      "region": "Maranhão"
+    },
+    {
+      "id": 15,
+      "name": "Amos Carter",
+      "email": "amoscarter4044@outlook.couk",
+      "region": "Minas Gerais"
+    },
+    {
+      "id": 16,
+      "name": "Hope Little",
+      "email": "hopelittle@google.edu",
+      "region": "Bahia"
+    },
+    {
+      "id": 17,
+      "name": "Noble Wolf",
+      "email": "noblewolf@protonmail.org",
+      "region": "Maranhão"
+    },
+    {
+      "id": 18,
+      "name": "Anastasia Shaffer",
+      "email": "anastasiashaffer@google.net",
+      "region": "São Paulo"
+    },
+    {
+      "id": 19,
+      "name": "Emi Slater",
+      "email": "emislater@outlook.edu",
+      "region": "Pernambuco"
+    },
+    {
+      "id": 20,
+      "name": "Katelyn Clayton",
+      "email": "katelynclayton9647@aol.com",
+      "region": "Pará"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ const eletros = [
 ];
 
 export async function GET(request,{params}) {
-    //GET BY ID
+    
     const id = params.id;
     if (id > 0 && id <= eletros.length) {
         const eletro = eletros.find((item) => item.id == id);
