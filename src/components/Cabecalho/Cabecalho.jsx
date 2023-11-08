@@ -12,10 +12,13 @@ export default function Cabecalho(){
                     <Link href="/produtos">PRODUTOS</Link>
                 </li>
                 <li>
+                    <Link href="/consumo/eletro-view">ELETRÔNICOS</Link>
+                </li>
+                <li>
                     <Link href="/usuarios-git">GIT-USERS</Link>
                 </li>
                 <li>
-                    <Link href="/consumo/eletro-view">ELETRÔNICOS</Link>
+                    <Link href="/consumo/user-view">USUÁRIOS</Link>
                 </li>
             </ul>
         </div>

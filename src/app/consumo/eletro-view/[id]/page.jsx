@@ -3,16 +3,16 @@ import { redirect } from "next/navigation";
 
 export default async function EletroViewID({params}) {
 
-        let item;
+    let item;
 
-        try {
-            const response = await fetch(`http://localhost:3000/api/eletronicos/${params.id}`);
-            item = await response.json();
-            console.log(item);
-        } catch (error) {
-            console.log(error);
-            redirect('/error');
-        }
+    try {
+        const response = await fetch(`http://localhost:3000/api/eletronicos/${params.id}`);
+        item = await response.json();
+        console.log(item);
+    } catch (error) {
+        console.log(error);
+        redirect('/error');
+    }
 
   return (
     <div className="eletro-view">

@@ -31,7 +31,7 @@ export default async function UserView() {
                         {
                             usuarios.map((user)=>(
                                 <tr key={user.id}>
-                                    <td><Link href={`consumo/user-view/${user.id}`}>{user.nome}</Link></td>
+                                    <td><Link href={`/consumo/user-view/${user.id}`}>{user.name}</Link></td>
                                     <td>{user.email}</td>
                                     <td>{user.region}</td>
                                 </tr>

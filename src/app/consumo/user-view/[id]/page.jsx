@@ -3,12 +3,12 @@ import { redirect } from "next/dist/server/api-utils";
 
 export default async function UserViewID({params}) {
 
-    let usuarios;
+    let user;
 
     try {
         const response = await fetch(`http://localhost:3000/api/base/base-users/${params.id}`);
-        usuarios = await response.json();
-        console.log(usuarios);
+        user = await response.json();
+        console.log(user);
     } catch (error) {
         console.log(error)
         redirect('/error');
@@ -26,10 +26,15 @@ export default async function UserViewID({params}) {
                             <th>ESTADO</th>
                         </tr>
                     </thead>
-                    <tbody key={user.id}>
-                        <td>{user.nome}</td>
-                        <td>{user.email}</td>
-                        <td>{user.region}</td>
+                    <tbody>
+                        {
+                            <tr key={user.id}>
+                                <td>{user.name}</td>
+                                <td>{user.email}</td>
+                                <td>{user.region}</td>
+                            
+                            </tr>
+                        }
                     </tbody>
                     <tfoot>
                         <tr>
