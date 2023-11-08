@@ -5,8 +5,7 @@ export default async function UserViewID({ params }) {
 
   try {
     const response = await fetch(
-      `http://localhost:3000/api/base/base-users/${params.id}`
-    );
+      `http://localhost:3000/api/base/base-users/${params.id}`);
     user = await response.json();
     console.log(user);
   } catch (error) {

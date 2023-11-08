@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Cabecalho() {
   return (
-    <div>
+    <header className="cabecalho">
       <ul>
-        <li>
+        <li className="border-l-0">
           <Link href="/">HOME</Link>
         </li>
         <li>
@@ -16,10 +16,10 @@ export default function Cabecalho() {
         <li>
           <Link href="/usuarios-git">GIT-USERS</Link>
         </li>
-        <li>
+        <li className="border-r-0">
           <Link href="/consumo/user-view">USUÁRIOS</Link>
         </li>
       </ul>
-    </div>
+    </header>
   );
 }
